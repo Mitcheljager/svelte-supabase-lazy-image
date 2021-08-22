@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import { onMount } from "svelte"
 
   import { supabaseImages, getSupabaseImage } from "./stores/supabaseImages"
@@ -10,7 +10,7 @@
   let src
   let loadingInitiated = false
 
-  let element: HTMLElement
+  let element
 
   onMount(lazyLoad)
 
@@ -57,4 +57,3 @@
   bind:this={ element }
   { src }
   { ...$$restProps } />
-
