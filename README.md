@@ -22,7 +22,7 @@ import { SupabaseLazyImage, supabaseImages, getSupabaseImage } from "svelte-supa
 The main component `SupabaseLazyImage` needs a couple of props to function correctly.
 
 ```
-<SupbaseLazyImage
+<SupabaseLazyImage
   { supabase }
   { from }
   { key } />
@@ -35,7 +35,7 @@ The main component `SupabaseLazyImage` needs a couple of props to function corre
 You can add any additional props you like to this image as if it was a regular HTML element.
 
 ```
-<SupbaseLazyImage
+<SupabaseLazyImage
   { supabase }
   { from }
   { key }
