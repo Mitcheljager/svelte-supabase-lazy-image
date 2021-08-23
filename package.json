@@ -1,5 +1,5 @@
 {
-  "name": "svelte-supabase-lazy-image",
+  "name": "svelte-supabase-lazy-images",
   "version": "1.0.0",
   "private": false,
   "scripts": {
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mitcheljager/svelte-supabase-lazy-image"
+    "url": "https://github.com/Mitcheljager/svelte-supabase-lazy-images"
   }
 }
