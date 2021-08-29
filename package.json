@@ -1,6 +1,6 @@
 {
   "name": "svelte-supabase-lazy-images",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": false,
   "scripts": {
     "build": "rollup -c",
